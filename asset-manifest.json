@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/practice-notes/static/css/main.e7a99b00.css",
+    "main.js": "/practice-notes/static/js/main.7b31b7e4.js",
+    "index.html": "/practice-notes/index.html",
+    "main.e7a99b00.css.map": "/practice-notes/static/css/main.e7a99b00.css.map",
+    "main.7b31b7e4.js.map": "/practice-notes/static/js/main.7b31b7e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7a99b00.css",
+    "static/js/main.7b31b7e4.js"
+  ]
+}
