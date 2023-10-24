@@ -5,6 +5,7 @@ import { useState } from "react";
 import Header from "./components/Header";
 import NotesList from "./components/NotesList";
 import { NoteModel } from "./models/note.model";
+import CreateNote from "./components/CreateNote";
 
 function App() {
   const [notes, setNotes] = useState<NoteModel[]>([
@@ -12,7 +13,7 @@ function App() {
       id: new Date().toString(),
       title: "Studying",
       text: "React, TS, Bootstrap",
-      color: "dfdfdf",
+      color: "#dfdfdf",
       date: new Date().toString(),
     },
   ]);
@@ -24,6 +25,11 @@ function App() {
         <Row>
           <Col>
             <NotesList notes={notes} setNotes={setNotes} />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <CreateNote notes={notes} setNotes={setNotes} />
           </Col>
         </Row>
       </Container>
